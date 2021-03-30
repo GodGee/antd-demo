@@ -12,6 +12,9 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  mounted() {
+    window.console.log('Jenkins demo');
   }
 }
 </script>
